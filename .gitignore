@@ -1,0 +1,39 @@
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Environment
+.env
+
+# Editor directories and files
+.vscode/
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+*.egg
+instance/
+.pytest_cache/
+
+# Coverage
+coverage/
+.coverage
+
+# Vite
+.idea/
+*.iml
+
+# Misc
+*.sqlite3
