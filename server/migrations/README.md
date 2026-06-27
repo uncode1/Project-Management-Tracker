@@ -1,0 +1,1 @@
+Migrations are managed by Alembic via `flask db` commands. Initialize with `flask db init` once the virtual environment is set up.

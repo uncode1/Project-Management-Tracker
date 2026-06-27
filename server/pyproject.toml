@@ -1,0 +1,42 @@
+[project]
+name = "project-management-tracker-api"
+version = "0.1.0"
+description = "Flask backend for the Project Management Tracker"
+authors = [{ name = "Project Team" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "flask>=3.0",
+  "python-dotenv>=1.0",
+  "flask-sqlalchemy>=3.1",
+  "flask-migrate>=4.0",
+  "sqlalchemy>=2.0",
+  "psycopg[binary]>=3.2",
+  "flask-jwt-extended>=4.6",
+  "passlib[argon2]>=1.7",
+  "marshmallow>=3.21",
+  "flask-limiter[redis]>=3.8",
+  "redis>=5.0",
+  "flask-cors>=4.0",
+  "alembic>=1.13",
+  "pydantic>=2.9",
+  "email-validator>=2.2",
+  "structlog>=24.1",
+  "blinker>=1.8",
+  "openai>=1.54"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3",
+  "pytest-cov>=5.0",
+  "ruff>=0.6",
+  "mypy>=1.12"
+]
+
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app"]
