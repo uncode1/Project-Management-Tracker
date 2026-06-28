@@ -36,3 +36,24 @@ coverage/
 
 # Misc
 *.sqlite3
+# OS
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+# IDE
+*.sublime-workspace
+*.sublime-project
+# Logs and temp
+*.tmp
+*.bak
+*.cache
+*.aux
+*.out
+*.err
